@@ -1,0 +1,5 @@
+file_path = '/home/sargis/PycharmProjects/pythonProject/data.txt'
+
+with open(file_path, 'r', encoding='utf-8') as data:
+    for index, value in enumerate(data):
+        print(f'index - {index} : value - {value}')
